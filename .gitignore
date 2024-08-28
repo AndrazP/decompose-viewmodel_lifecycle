@@ -1,0 +1,26 @@
+*.iml
+.kotlin
+.gradle
+**/build/
+xcuserdata
+!src/**/build/
+local.properties
+.idea
+.DS_Store
+captures
+.externalNativeBuild
+.cxx
+*.xcodeproj/*
+!*.xcodeproj/project.pbxproj
+!*.xcodeproj/xcshareddata/
+!*.xcodeproj/project.xcworkspace/
+!*.xcworkspace/contents.xcworkspacedata
+**/xcshareddata/WorkspaceSettings.xcsettings
+
+# Ignore everything under .idea
+.idea/*
+# But do not ignore .idea directory itself to allow specific includes
+!.idea/
+# Exclude specific files/folders within .idea
+!.idea/fileTemplates/
+!.idea/file.template.settings.xml
